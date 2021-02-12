@@ -6,15 +6,12 @@ SIEMBRA es un programa educativo integral que propone un currículum planificado
 ## Índice
 * [Conceptos Generales](https://bitbucket.org/softwarenatura/sd-wiki/src/master/content/conceptosGenerales.md)
 * [Arquitectura General](https://bitbucket.org/softwarenatura/sd-wiki/src/master/content/arquitectura.md)
-* [Configuraciones de Test-Revisión](http://www.example.com/)
-* [Configuraciones de Preproducción](http://www.example.com/)
-* [Configuraciones de Entrenamiento](http://www.example.com/)
-* [Configuraciones de Producción](http://www.example.com/)
+* [Configuraciones de Test-Revisión](https://bitbucket.org/softwarenatura/sd-wiki/src/master/content/test-revision.md)
+* [Configuraciones de Preproducción]()
+* [Configuraciones de Entrenamiento]()
+* [Configuraciones de Producción]()
 
 ## How To
-  * [Crear un ambiente desde cero](http://www.example.com/)
-  * [Actualizar Prototype](http://www.example.com/)
-  * [Actualizar Dev](http://www.example.com/)
-
-
-cf (Test-Revisión)
+  * [Crear un ambiente desde cero]()
+  * [Actualizar Prototype]()
+  * [Actualizar Dev]()

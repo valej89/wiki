@@ -12,8 +12,8 @@ Las peticiones HTTP son redirigidas de manera automática al puerto HTTPS.
 Por detrás, los servicios se encuentran distribuidos en dos apartados diferenciados marcados por ramas distintas de desarrollo: Dev y Prototype.
 
 Las peticiones dentro de la rama Prototype van dirigidas a:
-- [nombreDelAmbiente]-drupal.siembradigital.com.py/ para solicitudes al Drupal.
-- [nombreDelAmbiente].siembradigital.com.py/ para lo que refiere a consultas al backend.
+*  **[nombreDelAmbiente]-drupal.siembradigital.com.py/** para solicitudes al Drupal.
+*  **[nombreDelAmbiente].siembradigital.com.py/** para lo que refiere a consultas al backend.
 
 ### EC2
 #### Web de Siembra Digital
@@ -23,8 +23,8 @@ La web de Siembra Digital o Frontend se encuentra alojada en una instancia de EC
 Para el despligue de los servicios de la rama Prototype, se han montado dos servidores Linux sobre EC2. Los mismos se encuentran basados en Ubuntu 20.04 LTS.
 
 Las instancias se separan en dos funciones:
-- **Drupal:** Sobre esta instancia corre un Docker container sobre Docker Community Engine (Docker-CE). Este Drupal tiene como función, desplegar el contenido tanto de la Web de Siembra Digital como las funciones básicas de demo.
-- **Backend:** Esta instancia ejecuta el backend para los servicios necesarios de la demo que son desplegados mediante el Drupal.
+*  **Drupal:** Sobre esta instancia corre un Docker container sobre Docker Community Engine (Docker-CE). Este Drupal tiene como función, desplegar el contenido tanto de la Web de Siembra Digital como las funciones básicas de demo.
+*  **Backend:** Esta instancia ejecuta el backend para los servicios necesarios de la demo que son desplegados mediante el Drupal.
 
 #### Rama Dev
 Para el despligue de los servicios de la rama Dev, también se han montado dos servidores Linux sobre EC2, ambos igualmente configurados con Ubuntu Linux 20.04 LTS.
@@ -36,8 +36,8 @@ Las instancias se separan en dos funciones:
 ## RDS
 Para ambas ramas, se encuentra configurada además una instancia de **RDS** que ejecuta un motor de base de datos **MySQL**.
 Sobre este motor se despliegan dos esquemas actualmente:
-- sd_[nombreDelAmbiente]_prototype
-- sd_[nombreDelAmbiente]_dev
+*  **sd_[nombreDelAmbiente]_prototype**
+*  **sd_[nombreDelAmbiente]_dev**
 
 ## S3
 Finalmente para servirse de contenido estático como imágenes, o para la carga de archivos a la plataforma se encuentra configurada actualmente una bucket de S3.
