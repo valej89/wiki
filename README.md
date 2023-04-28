@@ -5,4 +5,4 @@ SIEMBRA es un programa educativo integral que propone un currículum planificado
 
 ## Enlace a la WIKI
 Ver aquí: https://bitbucket.org/softwarenatura/sd-wiki/wiki/Home 
-https://github.com/valej89/wiki.wiki.git
+https://github.com/valej89/wiki/wiki
